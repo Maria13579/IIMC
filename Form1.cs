@@ -21,7 +21,7 @@ namespace IIMC
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            lblResultado.Text = op.imc(double.Parse(txtpeso.Text), double.Parse(txtestatura.Text)).ToString();
         }
     }
 }
