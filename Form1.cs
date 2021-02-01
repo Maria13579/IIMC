@@ -12,6 +12,8 @@ namespace IIMC
 {
     public partial class frmIMC : Form
     {
+        static Operacion op = new Operacion();
+
         public frmIMC()
         {
             InitializeComponent();
