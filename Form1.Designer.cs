@@ -88,7 +88,7 @@ namespace IIMC
             // 
             // txtestatura
             // 
-            this.txtestatura.Location = new System.Drawing.Point(210, 143);
+            this.txtestatura.Location = new System.Drawing.Point(210, 138);
             this.txtestatura.Name = "txtestatura";
             this.txtestatura.Size = new System.Drawing.Size(119, 20);
             this.txtestatura.TabIndex = 5;
@@ -97,7 +97,7 @@ namespace IIMC
             // 
             this.cmdImc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.cmdImc.Font = new System.Drawing.Font("Stencil", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdImc.Location = new System.Drawing.Point(166, 334);
+            this.cmdImc.Location = new System.Drawing.Point(168, 348);
             this.cmdImc.Name = "cmdImc";
             this.cmdImc.Size = new System.Drawing.Size(203, 62);
             this.cmdImc.TabIndex = 6;
@@ -109,7 +109,7 @@ namespace IIMC
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Stencil", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(254, 271);
+            this.lblResultado.Location = new System.Drawing.Point(260, 295);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(21, 22);
             this.lblResultado.TabIndex = 7;
@@ -120,7 +120,7 @@ namespace IIMC
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(559, 444);
+            this.ClientSize = new System.Drawing.Size(559, 438);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.cmdImc);
             this.Controls.Add(this.txtestatura);
