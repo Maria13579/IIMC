@@ -37,6 +37,7 @@ namespace IIMC
             this.txtestatura = new System.Windows.Forms.TextBox();
             this.cmdImc = new System.Windows.Forms.Button();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.cmdtabl = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblPeso
@@ -115,12 +116,25 @@ namespace IIMC
             this.lblResultado.TabIndex = 7;
             this.lblResultado.Text = "0";
             // 
+            // cmdtabl
+            // 
+            this.cmdtabl.BackColor = System.Drawing.Color.OrangeRed;
+            this.cmdtabl.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.cmdtabl.Location = new System.Drawing.Point(424, 375);
+            this.cmdtabl.Name = "cmdtabl";
+            this.cmdtabl.Size = new System.Drawing.Size(100, 35);
+            this.cmdtabl.TabIndex = 8;
+            this.cmdtabl.Text = "Tabla IMC";
+            this.cmdtabl.UseVisualStyleBackColor = false;
+            this.cmdtabl.Click += new System.EventHandler(this.cmdtabl_Click);
+            // 
             // frmIMC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(559, 438);
+            this.Controls.Add(this.cmdtabl);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.cmdImc);
             this.Controls.Add(this.txtestatura);
@@ -131,6 +145,7 @@ namespace IIMC
             this.Controls.Add(this.lblPeso);
             this.Name = "frmIMC";
             this.Text = "Indice de Masa Corporal";
+            this.Load += new System.EventHandler(this.frmIMC_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -146,6 +161,7 @@ namespace IIMC
         private System.Windows.Forms.TextBox txtestatura;
         private System.Windows.Forms.Button cmdImc;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Button cmdtabl;
     }
 }
 
